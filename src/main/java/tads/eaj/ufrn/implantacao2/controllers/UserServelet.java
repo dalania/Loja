@@ -18,8 +18,8 @@ UserSQL userD = new UserSQL();
 
     @PostMapping
     public void Register(HttpServletRequest request, HttpServletResponse response) throws IOException {
-       var name = request.getParameter("name");
-       var email = request.getParameter("email");
+        var name = request.getParameter("name");
+        var email = request.getParameter("email");
         var password = request.getParameter("password");
         var type = request.getParameter("type");
 
