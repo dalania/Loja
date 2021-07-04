@@ -1,4 +1,4 @@
-package tads.eaj.ufrn.implantacao2.controllers;
+package tads.eaj.ufrn.implantacao2.models;
 
 import java.net.URISyntaxException;
 import java.sql.Connection;
@@ -8,7 +8,7 @@ import java.sql.SQLException;
 
 public class ConectaBanco {
 
-    static Connection getConnection() throws SQLException, URISyntaxException {
+   static Connection getConnection() throws SQLException, URISyntaxException {
         String dbUri = System.getenv("DATABASE_HOST");
         String dbPort = System.getenv("DATABASE_PORT");
         String dbName = System.getenv("DATABASE_NAME");

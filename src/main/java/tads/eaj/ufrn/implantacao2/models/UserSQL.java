@@ -1,4 +1,7 @@
-package tads.eaj.ufrn.implantacao2.controllers;
+package tads.eaj.ufrn.implantacao2.models;
+
+import tads.eaj.ufrn.implantacao2.controllers.User;
+import tads.eaj.ufrn.implantacao2.models.ConectaBanco;
 
 import java.net.URISyntaxException;
 import java.sql.PreparedStatement;

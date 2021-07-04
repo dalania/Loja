@@ -1,6 +1,6 @@
-package tads.eaj.ufrn.implantacao2.controllers;
+package tads.eaj.ufrn.implantacao2.models;
+import tads.eaj.ufrn.implantacao2.models.ConectaBanco;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -11,7 +11,6 @@ import java.io.IOException;
 import java.net.URISyntaxException;
 import java.sql.Connection;
 import java.sql.SQLException;
-
 @Controller
 @RequestMapping("/hello")
 public class Cliente {
