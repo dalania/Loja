@@ -25,6 +25,7 @@ UserSQL userD = new UserSQL();
 
         User user = new User(name, email, password, type);
         userD.insert(user);
+        userD.criar();
         response.getWriter().println(name);
 
 

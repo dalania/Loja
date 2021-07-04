@@ -1,5 +1,4 @@
 package tads.eaj.ufrn.implantacao2.models;
-import tads.eaj.ufrn.implantacao2.models.ConectaBanco;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,7 +12,7 @@ import java.sql.Connection;
 import java.sql.SQLException;
 @Controller
 @RequestMapping("/hello")
-public class Cliente {
+public class Conexao {
 
     @GetMapping
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException{
