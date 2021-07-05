@@ -1,4 +1,4 @@
-# implantacao2
+# Loja de produtos de Beleza
 Primeira prova da disciplina de programação web do curso de Analise e Desenvolvimento de sistemas.
 
 ## Objetivo
