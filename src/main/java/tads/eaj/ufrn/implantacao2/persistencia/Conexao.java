@@ -1,4 +1,4 @@
-package tads.eaj.ufrn.implantacao2.models;
+package tads.eaj.ufrn.implantacao2.persistencia;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;

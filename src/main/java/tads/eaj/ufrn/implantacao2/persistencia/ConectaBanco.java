@@ -1,4 +1,4 @@
-package tads.eaj.ufrn.implantacao2.models;
+package tads.eaj.ufrn.implantacao2.persistencia;
 
 import java.net.URISyntaxException;
 import java.sql.Connection;
